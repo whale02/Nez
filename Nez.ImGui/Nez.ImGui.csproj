@@ -6,7 +6,7 @@
 
     <PropertyGroup>
         <OutputType>Library</OutputType>
-        <TargetFramework>net471</TargetFramework>
+        <TargetFramework>net6</TargetFramework>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -57,7 +57,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="ImGui.NET" Version="1.71.0" />
+        <PackageReference Include="ImGui.NET" Version="1.87.2" />
         <PackageReference Include="MonoGame.Framework.Portable" Version="3.7.1.189" PrivateAssets="all" />
     </ItemGroup>
 
